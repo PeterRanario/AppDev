@@ -3,3 +3,14 @@ body {
     background: #f4f4f4;
     padding: 20px;
 }
+h1 {
+    text-align: center;
+}
+
+.section {
+    background: #fff;
+    padding: 15px;
+    margin: 15px auto;
+    width: 420px;
+    border-radius: 5px;
+}
