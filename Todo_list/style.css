@@ -14,3 +14,12 @@ h1 {
     width: 420px;
     border-radius: 5px;
 }
+input {
+    padding: 5px;
+    width: 70%;
+}
+
+button {
+    padding: 6px 10px;
+    cursor: pointer;
+}
