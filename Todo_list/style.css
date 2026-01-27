@@ -23,3 +23,21 @@ button {
     padding: 6px 10px;
     cursor: pointer;
 }
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    margin-bottom: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.log {
+    font-size: 12px;
+    color: #555;
+}
