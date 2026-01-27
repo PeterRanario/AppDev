@@ -149,3 +149,56 @@ ul {
     font-weight: bold;
     color: #4063ff;
 }
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .section {
+        width: 100%;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .section h3 {
+        font-size: 16px;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #addButton {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 6px;
+    }
+
+    .todo-item {
+        padding: 10px;
+    }
+
+    .todo-item button {
+        width: 100%;
+        margin-top: 6px;
+        font-size: 13px;
+    }
+
+    .timestamp {
+        font-size: 11px;
+    }
+
+    #activityLog li {
+        font-size: 12px;
+    }
+}
