@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>To Do List</h1>
+
+<div class="section">
+    <h3>Enter Your Name</h3>
+    <input type="text" id="username" placeholder="Your name">
+    <button onclick="saveName()">Save Name</button>
+    <p id="greeting"></p>
+</div>
+
+<div class="section">
+    <h3>Todo List</h3>
+    <input type="text" id="todoInput" placeholder="Enter a task">
+    <button id="addButton">Add</button>
+    <ul id="todoList"></ul>
+</div>
+
+<!-- Activity Log -->
+<div class="section">
+    <h3>User Activity Log</h3>
+    <ul id="activityLog"></ul>
+</div>
+
+<script src="todo_list.js"></script>
+</body>
+</html>
